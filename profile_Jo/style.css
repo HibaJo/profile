@@ -1,0 +1,180 @@
+body{
+	background: #1111;
+}
+h1{
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	word-spacing: 10px;
+	padding: 20px;
+}
+p{
+	text-align: center;
+	padding: 20px;
+}
+h2{
+	color:  black;
+}
+img{
+	border-radius: 5px;
+}
+a{
+	color: darkgoldenrod;
+	text-decoration: none;
+}
+
+li{
+	font-size: 20px;
+}
+
+a li:hover{
+	background-color:#DF5E5E; 
+	color: white;
+}
+
+i{
+	color: #DF5E5E;
+}
+table {
+	padding: 30px;
+}
+
+.container{
+	width: 900px;
+	margin: auto;
+}
+
+.card{
+	background-color: #F6EEC7;
+	padding: 20px;
+	margin: 30px 10px;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.3);
+	text-align: center;
+}
+#header{
+	margin: 0;
+	padding: 0;
+}
+.circle{
+
+  border-radius: 50%;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.8);
+}
+.inline li {
+	list-style: none;
+	padding: 10px 10px;
+	display: inline-block;
+	font-size: 30px;
+}
+.interest{
+	width: 100%
+	height: 600px
+}
+
+.display{
+	border: none;
+	width: 247px;
+	height: 500px;
+}
+#pff{
+	float: right;
+}
+#center	{
+	width: 100%;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	font-size: 20px;
+	height: 400px;
+}
+
+.btn-pink{
+	padding: 10px 20px;
+	border-radius: 4px;
+	background-color: #DF5E5E;
+	color: white;
+}
+#sep{
+	border-right: 3px solid #DF5E5E;
+
+}
+
+.row {
+  margin: 8px -16px ;
+}
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 47%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: white;
+  padding: 15px;
+}
+map {
+  display: inline;
+}
+@media screen and (max-width: 900px){
+	.container{
+		width: 600px;
+	}
+	#center	{
+		box-sizing: border-box;
+  	display: inline-block;
+  	padding-left: 0px;
+  	padding-right: 0px;
+  	position: relative;
+  	vertical-align: top;
+  	height: 400px;
+	}
+	.interest{
+		height: 300px;
+	}
+
+	#pff{
+		float: none;
+	}
+}
+@media screen and (max-width: 500px){
+	.container{
+		width: 400px;
+	}
+	.interest{
+		height: 200px;
+	}
+	.column{
+		width: 95%;
+	}
+
+	#center	{
+		box-sizing: border-box;
+  	display: inline-block;
+  	padding-left: 0px;
+  	padding-right: 0px;
+  	position: relative;
+  	vertical-align: top;
+		width: 100%;
+		height: 400px;
+	}
+	.img{
+		float: none;
+		width: 300px;
+	}
+
+	.display{
+		padding-top: 30px;
+		width: 100% ;
+		float: none;
+	}
+}
+
+
